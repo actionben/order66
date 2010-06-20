@@ -1,0 +1,62 @@
+<div class="music first">
+  <h2>Songs</h2>
+  <p>Hey, get a load of our first EP, All Too Easy! Here's a music player so you can play it, or download it, or whatever. The music is being piped from <a href="http://order66.bandcamp.com">our bandcamp page</a>!</p>
+  <div class="music_player">
+    <%= render :partial => 'bandcamp_player' %>
+  </div>
+</div>
+<div class="gigs">
+  <h2>Gigs</h2>
+  <p>Ok, our next gigs are:</p>
+  <ol class="gig_list">
+    <li class="gig">
+      <table>
+        <tr>
+          <th class="date">Date</th>
+          <td>Saturday 10 July</td>
+        </tr>
+        <tr>
+          <th class="place">Place</th>
+          <td><a href="http://www.myspace.com/loungebarstreetteam">The Lounge Bar, Alton</a> (<a href="http://maps.google.co.uk/maps?q=Alton+Community+Centre&sll=51.261915,-0.473785&sspn=0.334285,1.234589&z=14&iwloc=A">map</a>)</td>
+        </tr>
+        <tr>
+          <th class="with">With</th>
+          <td><a href="http://en.wikipedia.org/wiki/Random_Hand">Random Hand</a> + <a href="http://www.myspace.com/dirtyrevolution">Dirty Revolution</a></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="extra">This is going to be good times! Here's <a href="http://www.facebook.com/event.php?eid=114065801972238">a page all about it</a>!</td>
+        </tr>
+      </table>
+    </li>
+    <li class="gig">
+      <table>
+        <tr>
+          <th class="date">Date</th>
+          <td>Friday 12 Feb</td>
+        </tr>
+        <tr>
+          <th class="place">Place</th>
+          <td><a href="http://www.the-fighting-cocks.co.uk/">The Fighting Cocks, Kingston</a> (<a href="http://maps.google.com/maps?f=q&q=Kingston+upon+Thames,+KT2+6QA,+United+Kingdom&ie=UTF8&om=1&iwloc=addr">map</a>)</td>
+        </tr>
+        <tr>
+          <th class="with">With</th>
+          <td>Ursa Major, Munroe Effect and A Day after Tomorrow</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="extra">This is in the past, you guys!</td>
+        </tr>
+      </table>
+    </li>
+  </ol>
+</div>
+<div class="intro">
+  <p>Order 66 is a pop-punk band from Surrey in England. Oh, go on, you know what pop punk is! It's what Green Day used to play before they went weird! And here's the thing - all our songs are about Star Wars! I know - awesome, right?</p>
+  <p>The Star Wars stuff is in the lyrics, really. Some bits of the music from the movies sneak in there too, but it's not like we just play covers of the cantina band song (there's plenty of awesome bands taking care of that).</p>
+  <p>We've played gigs with some sweet bands, like <a href="http://en.wikipedia.org/wiki/Assorted_Jelly_Beans">Assorted Jelly Beans</a>, <a href="http://www.last.fm/music/The+JB+Conspiracy">The JB Conspiracy</a>, <a href="http://www.myspace.com/zeeb">Zeeb?</a>, <a href="http://www.mrkamikaze.com/">Mr Kamikaze</a>, <a href="http://www.facebook.com/pages/Mouscron-Belgium/Black-Sheep-Belgium/44827325889">Black Sheep</a>, <a href="http://www.last.fm/music/Second+Time+Lucky">Second Time Lucky</a> and <a href="http://www.last.fm/music/A+Man+Down">A Man Down</a> - and the gigs we've got coming up are totally going to punish too!</p>
+</div>
+<div class="members_thumbs">
+  <%= image_tag 'alex_thumb.png', :size => '70x70', :alt => 'Alex', :title => 'Alex (drums)' %>
+  <%= image_tag 'ben_thumb.png', :size => '70x70', :alt => 'Ben', :title => 'Ben (vocals, guitar)' %>
+  <%= image_tag 'chris_thumb.png', :size => '70x70', :alt => 'Chris', :title => 'Chris (guitar, vocals)' %>
+  <%= image_tag 'thom_thumb.png', :size => '70x70', :alt => 'Thom', :title => 'Thom (bass, vocals)' %>
+</div>

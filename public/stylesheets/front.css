@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background-color: black;
+  font: 100%/1.5 Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a:link {
+  color: #06C;
+}
+
+.outer_wrapper {
+  width: 779px;
+  margin: 60px auto;
+  border: black solid 1px;
+  background-image: url(/images/outline.png);
+}
+
+.wrapper {
+  margin: 8px;
+  background-color: black;
+  padding: 20px;
+  font-size: 0.84em;
+}
+
+.header {
+  position: relative;
+}
+
+.header .logo {
+  margin: -100px 0 0 -100px;
+}
+
+.header h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 461px;
+  height: 177px;
+  margin: 14px 23px 20px;
+  background: url(/images/site_heading.png) no-repeat;
+}
+
+.header h1 .text {
+  position: absolute;
+  left: -999999px;
+}
+
+.content {
+  padding: 0 20px 20px 20px;
+}
+
+.first h2 {
+  margin-top: 0;
+}
+
+.intro,
+.members_thumbs {
+  width: 320px;
+  margin-bottom: 28px;
+}
+
+.music,
+.gigs {
+  float: right;
+  clear: right;
+  width: 340px;
+}
+
+.music p {
+  margin: 0 0 20px 0;
+}
+
+.music_player {
+  border: #FFD719 solid 4px;
+  padding: 7px 16px;
+}
+
+.gig_list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.gig_list li {
+  list-style-type: none;
+  margin: 0 0 14px;
+  padding-left: 0;
+}
+
+.gig_list table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.gig_list th,
+.gig_list td {
+  border: #333 solid 1px;
+  padding: 2px 14px;
+}
+
+.gig_list th {
+  text-align: left;
+  width: 34px;
+}
+
+.footer {
+  clear: both;
+}
