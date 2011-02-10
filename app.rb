@@ -4,6 +4,7 @@ require 'haml'
 require 'maruku'
 
 get '/' do
+  response.headers['Cache-Control'] = 'public, s-maxage=86400'
   haml :index
 end
 
