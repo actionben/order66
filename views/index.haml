@@ -1,19 +1,38 @@
 .music.first
-  .gig_ad
-    %img{:src => '/images/underworld_monitor.jpg',
-    :alt => 'Camden Underworld: Achievement Unlocked'}
   :maruku
     ## Songs
     Hey, get a load of our first EP, All Too Easy! Here's a music player so you can play it, or download it, or whatever. The music is being piped from [our bandcamp page](http://order66.bandcamp.com)!
   .music_player
     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="100" ><param name="movie" value="http://bandcamp.com/EmbeddedPlayer.swf/album=1804128162/size=grande/bgcol=000000/linkcol=0066cc/"><param name="quality" value="high"><param name="allowScriptAccess" value="never"><param name="allowNetworking" value="always"><param name="bgcolor" value="#000000"><embed src="http://bandcamp.com/EmbeddedPlayer.swf/album=1804128162/size=grande/bgcol=000000/linkcol=0066cc/" width="300" height="100" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality=high allowScriptAccess=never allowNetworking=always bgcolor=#000000 ></embed><noembed><a href="http://order66.bandcamp.com/album/all-too-easy">Red 6 by Order 66</a></noembed></object>
+.gigs
+  :maruku
+    ## Gigs
+    Ok, our next gigs are:
+  %ol.gig_list
+    %li.gig
+      %table
+        %tr
+          %th.date Date
+          %td Wednesday 27 July
+        %tr
+          %th.place Place
+          %td
+            :maruku
+              The Boileroom, Guildford ([map](http://maps.google.co.uk/maps/place?cid=2825553118788837311))
+        %tr
+          %td.extra{:colspan => "2"}
+            :maruku
+              With [We Start Partys](http://www.westartpartys.com/)
+              
+              This is our first local gig for a while - it's going to be a massive good time!
+
 .intro
   :maruku
     Order 66 is a pop-punk band from Surrey in England. Oh, go on, you know what pop punk is! It's what Green Day used to play before they went weird! And here's the thing - all our songs are about Star Wars! I know - awesome, right?
 
     The Star Wars stuff is in the lyrics, really. Some bits of the music from the movies sneak in there too, but it's not like we just play covers of the cantina band song (there's plenty of awesome bands taking care of that).
 
-    We've played gigs with some sweet bands, like [The Dogbones](http://en.wikipedia.org/wiki/The_Dogbones), [Random Hand](http://en.wikipedia.org/wiki/Random_Hand), [Assorted Jelly Beans](http://en.wikipedia.org/wiki/Assorted_Jelly_Beans), [The JB Conspiracy](http://www.last.fm/music/The+JB+Conspiracy), [Zeeb?](http://www.myspace.com/zeeb), [Mr Kamikaze](http://www.mrkamikaze.com/), [Second Time Lucky](http://www.last.fm/music/Second+Time+Lucky) and [A Man Down](http://www.last.fm/music/A+Man+Down) - and the gigs we've got coming up are totally going to punish too!
+    We've played gigs at, like, [Nambucca](http://nambuccalondon.com/), and [The Underworld](http://en.wikipedia.org/wiki/Camden_Underworld), and with some sweet bands, like [The Dogbones](http://en.wikipedia.org/wiki/The_Dogbones), [Random Hand](http://en.wikipedia.org/wiki/Random_Hand), [Assorted Jelly Beans](http://en.wikipedia.org/wiki/Assorted_Jelly_Beans), [The JB Conspiracy](http://www.last.fm/music/The+JB+Conspiracy), [Zeeb?](http://www.myspace.com/zeeb) and [Mr Kamikaze](http://www.mrkamikaze.com/) - and the gigs we've got coming up are totally going to punish too!
 .members_thumbs
   %img{:src => '/images/alex_thumb.png', :size => '70x70', :alt => 'Alex', :title => 'Alex (drums)'}
   %img{:src => '/images/ben_thumb.png', :size => '70x70', :alt => 'Ben', :title => 'Ben (vocals, guitar)'}
