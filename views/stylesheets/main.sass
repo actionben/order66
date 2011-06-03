@@ -20,54 +20,26 @@ a
     color: #FFD719
 
 .outer_wrapper
-  width: 779px
-  margin: 60px auto
   border: black solid 1px
-  background-image: url(/images/outline.png)
 
 .wrapper
-  margin: 8px
   background-color: black
-  padding: 20px
   font-size: 0.84em
 
 .header
-  position: relative
-  .logo
-    margin: -100px 0 0 -100px
   h1
-    position: absolute
-    top: 0
-    right: 0
-    width: 461px
-    height: 177px
-    margin: 14px 23px 20px
-    background: url(/images/site_heading.png) no-repeat
     .text
       position: absolute
       left: -999999px
-
-.content
-  padding: 0 20px 20px 20px
 
 .first h2
   margin-top: 0
 
 .intro, .members_thumbs
-  width: 320px
   margin-bottom: 28px
-
-.music, .gigs
-  float: right
-  clear: right
-  width: 340px
-
-.music p
-  margin: 0 0 20px 0
 
 .music_player
   border: #FFD719 solid 4px
-  padding: 7px 16px
 
 .gig_list
   margin-left: 0
@@ -79,17 +51,114 @@ a
   table
     border-collapse: collapse
     width: 100%
-  th, td
-    border: #333 solid 1px
-    padding: 2px 14px
-  th
-    text-align: left
-    width: 34px
+    th, td
+      border: #333 solid 1px
+    th
+      text-align: left
 
-.gig_ad
-  margin-bottom: 1em
-  a
-    display: block
+@media (max-width: 400px)
 
-.footer
-  clear: both
+  img.logo
+    display: none
+
+  .outer_wrapper
+    width: 100%
+    margin: 0 auto
+
+  .header
+    h1
+      width: 320px
+      height: 114px
+      margin: 10px auto
+      background: url(/images/logo_320.png) no-repeat
+
+  .intro, .members_thumbs
+    width: 100%
+
+  .members_thumbs
+    img
+      width: 24%
+
+  .content
+    padding: 0 10px 0 10px
+
+  .music, .gigs
+    width: 100%
+
+  .music p
+    margin: 0 0 10px 0
+
+  .music_player
+    padding: 7px 2px
+    text-align: center
+    object
+      margin: 0 auto
+
+  .gig_list
+    th, td
+      padding: 2px 7px
+    th
+      width: 34px
+
+  .gig_ad
+    margin-bottom: 1em
+    a
+      display: block
+
+@media (min-width: 400px)
+
+  .outer_wrapper
+    width: 779px
+    margin: 60px auto
+    border: black solid 1px
+    background-image: url(/images/outline.png)
+
+  .wrapper
+    margin: 8px
+    padding: 20px
+
+  .header
+    position: relative
+    .logo
+      margin: -100px 0 0 -100px
+    h1
+      position: absolute
+      top: 0
+      right: 0
+      width: 461px
+      height: 177px
+      margin: 14px 23px 20px
+      background: url(/images/site_heading.png) no-repeat
+
+  .intro, .members_thumbs
+    float: left
+    clear: left
+    width: 320px
+
+  .content
+    padding: 0 20px 20px 20px
+
+  .music, .gigs
+    float: right
+    clear: right
+    width: 340px
+
+  .music p
+    margin: 0 0 20px 0
+
+  .music_player
+    padding: 7px 16px
+
+  .gig_list
+    th, td
+      padding: 2px 14px
+    th
+      width: 34px
+
+  .gig_ad
+    margin-bottom: 1em
+    a
+      display: block
+
+  .footer
+    clear: both
