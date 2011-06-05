@@ -84,6 +84,10 @@ a
   clear: left
   width: 320px
 
+.members_thumbs
+  img
+    width: 23.5%
+
 .content
   padding: 0 20px 20px 20px
 
@@ -97,6 +101,8 @@ a
 
 .music_player
   padding: 7px 16px
+  .big
+    display: none
 
 .gig_list
   th, td
@@ -112,7 +118,7 @@ a
 .footer
   clear: both
 
-@media (max-width: 400px)
+@media (max-width: 470px)
 
   img.logo
     display: none
@@ -137,10 +143,6 @@ a
 
   .intro, .members_thumbs
     width: 100%
-
-  .members_thumbs
-    img
-      width: 24%
 
   .content
     padding: 0 10px 0 10px
@@ -167,3 +169,28 @@ a
     margin-bottom: 1em
     a
       display: block
+
+@media (min-width: 1150px)
+  .outer_wrapper
+    width: 1130px
+
+  .header
+    .logo
+      margin-left: 120px
+    h1
+      right: 120px
+  .music_player
+    padding-top: 20px
+    .small
+      display: none
+    .big
+      display: block
+  .gigs,
+  .members_thumbs
+    clear: none
+    margin-right: 20px
+  .members_thumbs
+    float: right
+    width: 340px
+    
+    
