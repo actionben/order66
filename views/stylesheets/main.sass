@@ -20,49 +20,14 @@ a
     color: #FFD719
 
 .outer_wrapper
-  border: black solid 1px
-
-.wrapper
-  background-color: black
-  font-size: 0.84em
-
-.header
-  h1
-    .text
-      position: absolute
-      left: -999999px
-
-.first h2
-  margin-top: 0
-
-.intro, .members_thumbs
-  margin-bottom: 28px
-
-.music_player
-  border: #FFD719 solid 4px
-
-.gig_list
-  margin-left: 0
-  padding-left: 0
-  li
-    list-style-type: none
-    margin: 0 0 14px
-    padding-left: 0
-  table
-    border-collapse: collapse
-    width: 100%
-    th, td
-      border: #333 solid 1px
-    th
-      text-align: left
-
-.outer_wrapper
   width: 779px
   margin: 60px auto
   border: black solid 1px
   background-image: url(/images/outline.png)
 
 .wrapper
+  background-color: black
+  font-size: 0.84em
   margin: 8px
   padding: 20px
 
@@ -78,18 +43,25 @@ a
     height: 177px
     margin: 14px 23px 20px
     background: url(/images/site_heading.png) no-repeat
+    .text
+      position: absolute
+      left: -999999px
+
+.content
+  padding: 0 20px 20px 20px
+
+.first h2
+  margin-top: 0
 
 .intro, .members_thumbs
   float: left
   clear: left
   width: 320px
+  margin-bottom: 28px
 
 .members_thumbs
   img
     width: 23.5%
-
-.content
-  padding: 0 20px 20px 20px
 
 .music, .gigs
   float: right
@@ -100,15 +72,27 @@ a
   margin: 0 0 20px 0
 
 .music_player
+  border: #FFD719 solid 4px
   padding: 7px 16px
   .big
     display: none
 
 .gig_list
-  th, td
-    padding: 2px 14px
-  th
-    width: 34px
+  margin-left: 0
+  padding-left: 0
+  li
+    list-style-type: none
+    margin: 0 0 14px
+    padding-left: 0
+  table
+    border-collapse: collapse
+    width: 100%
+    th, td
+      border: #333 solid 1px
+      padding: 2px 14px
+    th
+      text-align: left
+      width: 34px
 
 .gig_ad
   margin-bottom: 1em
