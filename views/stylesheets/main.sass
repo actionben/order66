@@ -56,6 +56,62 @@ a
     th
       text-align: left
 
+.outer_wrapper
+  width: 779px
+  margin: 60px auto
+  border: black solid 1px
+  background-image: url(/images/outline.png)
+
+.wrapper
+  margin: 8px
+  padding: 20px
+
+.header
+  position: relative
+  .logo
+    margin: -100px 0 0 -100px
+  h1
+    position: absolute
+    top: 0
+    right: 0
+    width: 461px
+    height: 177px
+    margin: 14px 23px 20px
+    background: url(/images/site_heading.png) no-repeat
+
+.intro, .members_thumbs
+  float: left
+  clear: left
+  width: 320px
+
+.content
+  padding: 0 20px 20px 20px
+
+.music, .gigs
+  float: right
+  clear: right
+  width: 340px
+
+.music p
+  margin: 0 0 20px 0
+
+.music_player
+  padding: 7px 16px
+
+.gig_list
+  th, td
+    padding: 2px 14px
+  th
+    width: 34px
+
+.gig_ad
+  margin-bottom: 1em
+  a
+    display: block
+
+.footer
+  clear: both
+
 @media (max-width: 400px)
 
   img.logo
@@ -64,9 +120,16 @@ a
   .outer_wrapper
     width: 100%
     margin: 0 auto
+    background-image: none
+
+  .wrapper
+    margin: 0
+    padding: 0
 
   .header
+    position: static
     h1
+      position: static
       width: 320px
       height: 114px
       margin: 10px auto
@@ -104,61 +167,3 @@ a
     margin-bottom: 1em
     a
       display: block
-
-@media (min-width: 400px)
-
-  .outer_wrapper
-    width: 779px
-    margin: 60px auto
-    border: black solid 1px
-    background-image: url(/images/outline.png)
-
-  .wrapper
-    margin: 8px
-    padding: 20px
-
-  .header
-    position: relative
-    .logo
-      margin: -100px 0 0 -100px
-    h1
-      position: absolute
-      top: 0
-      right: 0
-      width: 461px
-      height: 177px
-      margin: 14px 23px 20px
-      background: url(/images/site_heading.png) no-repeat
-
-  .intro, .members_thumbs
-    float: left
-    clear: left
-    width: 320px
-
-  .content
-    padding: 0 20px 20px 20px
-
-  .music, .gigs
-    float: right
-    clear: right
-    width: 340px
-
-  .music p
-    margin: 0 0 20px 0
-
-  .music_player
-    padding: 7px 16px
-
-  .gig_list
-    th, td
-      padding: 2px 14px
-    th
-      width: 34px
-
-  .gig_ad
-    margin-bottom: 1em
-    a
-      display: block
-
-  .footer
-    clear: both
