@@ -1,7 +1,15 @@
 require 'rubygems'
 require 'sinatra'
 require 'haml'
-require 'maruku'
+require 'kramdown'
+
+module Kramdown
+ include Haml::Filters::Base
+
+ def render(text)
+   ::Kramdown::Document.new(text).to_html
+ end
+end
 
 get '/' do
   response.headers['Cache-Control'] = 'public, s-maxage=86400'
