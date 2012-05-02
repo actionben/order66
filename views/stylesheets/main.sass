@@ -54,7 +54,7 @@ a
 .first h2
   margin-top: 0
 
-.intro, .members_thumbs
+.intro, .members_thumbs, .music
   float: left
   clear: left
   width: 320px
@@ -64,7 +64,7 @@ a
   img
     width: 23.5%
 
-.music, .gigs
+.gigs
   float: right
   clear: right
   width: 340px
@@ -171,8 +171,16 @@ a
     .big
       display: block
   .gigs,
-  .members_thumbs
+  .music,
+  .intro,
+  .member_thumbs
+    float: left
+  .gigs,
+  .music,
+  .intro
     clear: none
+  .gigs,
+  .intro
     margin-right: 20px
   .members_thumbs
     float: right
