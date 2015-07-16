@@ -1,4 +1,4 @@
-source :gemcutter
+source 'https://rubygems.org'
 
 gem 'sinatra',    '1.1'
 gem 'haml',       '3.1.2'
