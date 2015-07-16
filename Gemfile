@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'sinatra',    '1.1'
-gem 'haml',       '3.1.2'
-gem 'sass',       '3.1.2'
-gem 'kramdown',   '0.10.0'
+gem 'sinatra'
+gem 'haml'
+gem 'sass'
+gem 'kramdown'
 
 group :development do
 	gem 'shotgun'
