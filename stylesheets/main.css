@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  background-color: black;
+  font: 100%/1.5 Verdana, Arial, Helvetica, sans-serif;
+  color: white; }
+
+a img {
+  border: none;
+  margin: 0; }
+
+p {
+  margin: 10px 0; }
+
+a:link {
+  color: #39F; }
+a:visited {
+  color: #A6D; }
+a:hover {
+  color: #FFD719; }
+
+.outer_wrapper {
+  width: 779px;
+  margin: 60px auto;
+  border: black solid 1px;
+  background-image: url(/images/outline.png); }
+
+.wrapper {
+  background-color: black;
+  font-size: 0.84em;
+  margin: 8px;
+  padding: 20px; }
+
+.header {
+  position: relative; }
+  .header .logo {
+    position: relative;
+    margin: -100px 0 0 -100px; }
+  .header h1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 461px;
+    height: 177px;
+    margin: 14px 23px 20px;
+    background: url(/images/site_heading.png) no-repeat; }
+    .header h1 .text {
+      position: absolute;
+      left: -999999px; }
+
+.content {
+  padding: 0 20px 20px 20px; }
+
+.first h2 {
+  margin-top: 0; }
+
+.intro, .members_thumbs, .music {
+  float: left;
+  clear: left;
+  width: 320px;
+  margin-bottom: 28px; }
+
+.members_thumbs img {
+  width: 23.5%; }
+
+.gigs {
+  float: right;
+  clear: right;
+  width: 340px; }
+
+.music p {
+  margin: 0 0 20px 0; }
+
+.music_player {
+  border: #FFD719 solid 4px;
+  padding: 7px 16px; }
+  .music_player .big {
+    display: none; }
+
+.gig_list {
+  margin-left: 0;
+  padding-left: 0; }
+  .gig_list li {
+    list-style-type: none;
+    margin: 0 0 14px;
+    padding-left: 0; }
+  .gig_list table {
+    border-collapse: collapse;
+    width: 100%; }
+    .gig_list table th, .gig_list table td {
+      border: #333 solid 1px;
+      padding: 2px 14px; }
+    .gig_list table th {
+      text-align: left;
+      width: 34px; }
+
+.gig_ad {
+  margin-bottom: 1em; }
+  .gig_ad a {
+    display: block; }
+
+.footer {
+  clear: both; }
+
+@media (max-width: 470px) {
+  img.logo {
+    display: none; }
+
+  .outer_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-image: none; }
+
+  .wrapper {
+    margin: 0;
+    padding: 0; }
+
+  .header {
+    position: static; }
+    .header h1 {
+      position: static;
+      width: 320px;
+      height: 114px;
+      margin: 10px auto;
+      background: url(/images/logo_320.png) no-repeat; }
+
+  .intro, .members_thumbs {
+    width: 100%; }
+
+  .content {
+    padding: 0 10px 0 10px; }
+
+  .music, .gigs {
+    width: 100%; }
+
+  .music p {
+    margin: 0 0 10px 0; }
+
+  .music_player {
+    padding: 7px 2px;
+    text-align: center; }
+    .music_player object {
+      margin: 0 auto; }
+
+  .gig_list th, .gig_list td {
+    padding: 2px 7px; }
+  .gig_list th {
+    width: 34px; }
+
+  .gig_ad {
+    margin-bottom: 1em; }
+    .gig_ad a {
+      display: block; } }
+@media (min-width: 1150px) {
+  .outer_wrapper {
+    width: 1130px; }
+
+  .header .logo {
+    margin-left: 120px; }
+  .header h1 {
+    right: 120px; }
+
+  .music_player {
+    padding-top: 20px; }
+    .music_player .small {
+      display: none; }
+    .music_player .big {
+      display: block; }
+
+  .gigs,
+  .music,
+  .intro,
+  .member_thumbs {
+    float: left; }
+
+  .gigs,
+  .music,
+  .intro {
+    clear: none; }
+
+  .gigs,
+  .intro {
+    margin-right: 20px; }
+
+  .members_thumbs {
+    float: right;
+    width: 340px; } }
