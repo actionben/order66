@@ -72,7 +72,7 @@ a:hover {
 
 .music_player {
   border: #FFD719 solid 4px;
-  padding: 7px 16px; }
+  padding: 7px 10px; }
   .music_player .big {
     display: none; }
 
@@ -159,12 +159,10 @@ a:hover {
   .header h1 {
     right: 120px; }
 
-  .music_player {
-    padding-top: 20px; }
-    .music_player .small {
-      display: none; }
-    .music_player .big {
-      display: block; }
+  .music_player .small {
+    display: none; }
+  .music_player .big {
+    display: block; }
 
   .gigs,
   .music,
